@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions Basics</title>
+	<style>
+		p {
+			background-color: green;
+			height: 50px;
+			width: 100px;
+			transition-property: transform;
+			transition-duration: 3s;
+			transition-delay: 2s;
+			transition-timing-function: ease-out;
+		}
+
+		p:hover {
+			transform: translate(200px);
+		}
+	</style>
+</head>
+<body>
+	<p>Texto</p>
+	<h1>What should be transitioned?</h1>
+	<ul>
+		<li>transform: translate();</li>
+		<li>transform: scale();</li>
+		<li>transform: rotate();</li>
+		<li>opacity</li>
+	</ul>
+</body>
+</html>
